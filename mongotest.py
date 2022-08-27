@@ -10,6 +10,13 @@ d={
     "surname":"kumar"
 }
 
+d={
+    "name":"manukumar",
+    "email":"manukumarsk95@gmail.com",
+    "surname":"kumar"
+}
+
+
 db1=client['mongotest']
 collection=db1['test']
 collection.insert_one(d)
